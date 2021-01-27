@@ -88,6 +88,15 @@ img::-moz-selection {
   background: transparent;
 }
 
+.nav-left{
+    margin-right:auto;
+}
+
+.nav-right{
+    display:flex;
+    padding-top: 2rem;
+}
+
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;

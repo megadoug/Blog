@@ -25,7 +25,7 @@ SECRET_KEY = 'q$tjns4!&jls6fnp2u68w86fb$y=1f&&oidt)23wwzm+^yp*=+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -122,10 +122,10 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = 'media'
 
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+STATIC_URL = '/static/'
 
 STATICFILES_DIR = [
     'statics'
 ]
-
-STATIC_URL = '/static/'
